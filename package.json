@@ -1,0 +1,18 @@
+{
+  "name": "gitbook-plugin-markedx",
+  "version": "0.1.0",
+  "description": "Run every page through markedx",
+  "main": "lib/index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "repository": {
+    "url": "https://github.com/9dots/gitbook-plugin-markedx.git",
+    "type": "git"
+  },
+  "author": "Daniel <danleavitt0@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "markedx": "0.1.4"
+  }
+}
