@@ -53,6 +53,18 @@
     "@f/identity" "^1.1.1"
     "@f/reduce-array" "^0.2.1"
 
+"@f/compute-placement@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@f/compute-placement/-/compute-placement-1.1.0.tgz#9535a40f03244715bb5dead939f62eb48c7cf5e1"
+
+"@f/contains-element@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/contains-element/-/contains-element-1.0.0.tgz#e40eac5d6bc70761495d6dc56b465a310aa26507"
+
+"@f/create-action@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@f/create-action/-/create-action-1.1.1.tgz#69c61666c9ec31d69a4dd1a14a915339590f72f8"
+
 "@f/create-element@^1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@f/create-element/-/create-element-1.0.1.tgz#0f3e73b42d91e0c6bd04488751cd5e72f1c57884"
@@ -60,17 +72,31 @@
     "@f/is-svg" "^1.0.0"
     "@f/svg-namespace" "^1.0.1"
 
+"@f/create-event@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@f/create-event/-/create-event-1.0.2.tgz#d778b190de2edf3c56837419c98552c7aa0892da"
+  dependencies:
+    "@f/event-constructors" "^1.0.0"
+
 "@f/css-default-units@^1.0.0", "@f/css-default-units@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@f/css-default-units/-/css-default-units-1.0.1.tgz#5f1758b86a392591d979f6b1024e0080744b6eaa"
   dependencies:
     "@f/css-unitless" "^1.0.1"
 
+"@f/css-prefix-data@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/css-prefix-data/-/css-prefix-data-1.0.0.tgz#50e45d6f9992f98b579d914b5f14eba38e34ed50"
+
 "@f/css-unitless@^1.0.1":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@f/css-unitless/-/css-unitless-1.0.2.tgz#8da6e884a57e4d27798b744584e094862aa503e9"
   dependencies:
     "@f/hyphenate" "^1.0.0"
+
+"@f/css-vendor-prefixes@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@f/css-vendor-prefixes/-/css-vendor-prefixes-1.0.2.tgz#42a2b46d5b816cb9b873e8a5097decd29ef77b75"
 
 "@f/curry-once@^1.3.2":
   version "1.3.2"
@@ -98,6 +124,10 @@
   dependencies:
     "@f/is-dom-loaded" "^1.0.1"
 
+"@f/element-rect@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/element-rect/-/element-rect-1.0.0.tgz#75aab1466551d82dad6e7eaf625133c19243db54"
+
 "@f/empty-element@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@f/empty-element/-/empty-element-1.0.0.tgz#09c4ec8fdd2c5d537ef05d3c27e0211be6ac07ef"
@@ -118,6 +148,10 @@
     "@f/equal-obj" "^1.2.1"
     "@f/is-array" "^1.1.1"
     "@f/is-object" "^1.1.4"
+
+"@f/event-constructors@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/event-constructors/-/event-constructors-1.0.0.tgz#0510a930151d6272359a86b6dec68a2fbe025c9c"
 
 "@f/event-handler@^1.0.1", "@f/event-handler@^1.0.2":
   version "1.0.2"
@@ -169,7 +203,7 @@
   dependencies:
     "@f/is-string" "^1.0.1"
 
-"@f/handle-actions@^1.1.2":
+"@f/handle-actions@^1.1.1", "@f/handle-actions@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@f/handle-actions/-/handle-actions-1.1.2.tgz#8e6125d97408d71faff15421c4642f20ffbe8cc8"
   dependencies:
@@ -184,6 +218,10 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@f/hash-str/-/hash-str-1.0.0.tgz#059d14538be23ca812536392105c6efe76058c04"
 
+"@f/html-attrs@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@f/html-attrs/-/html-attrs-1.0.2.tgz#66494a69755b16457c00c473a4156e3d806afc42"
+
 "@f/hyphenate@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@f/hyphenate/-/hyphenate-1.0.0.tgz#dc1633324d05636da20e25fe66d6de01a1ffedd8"
@@ -191,6 +229,17 @@
 "@f/identity@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@f/identity/-/identity-1.1.1.tgz#6fb49a3141b1684f64ecf6fb87baa744909ae4ce"
+
+"@f/index@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@f/index/-/index-1.0.4.tgz#a4586763d95d47446a4198ba891968522164af3d"
+  dependencies:
+    "@f/identity" "^1.1.1"
+    "@f/reduce-array" "^0.2.1"
+
+"@f/input-attrs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/input-attrs/-/input-attrs-1.0.0.tgz#7c84d0351f0d4454074715e2d10369dc135207c5"
 
 "@f/insert-element@^1.0.0":
   version "1.0.0"
@@ -302,13 +351,56 @@
     "@f/is-function" "^1.1.1"
     "@f/map-array" "^1.2.1"
 
+"@f/noop@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@f/noop/-/noop-1.2.0.tgz#4c48b94b4d24dcf66d329e5e25c61ff887d1abbe"
+
+"@f/normalize-bowser@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/normalize-bowser/-/normalize-bowser-1.0.0.tgz#569e850e6768a883035737d8218d1a7c455202a0"
+
 "@f/object-equal@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@f/object-equal/-/object-equal-1.1.1.tgz#68e017ab6d00cf3a7f373570c001285f610424a7"
 
+"@f/offset-parent@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@f/offset-parent/-/offset-parent-1.0.1.tgz#fbc109fe95d7f25ce5ec674159526747d553071a"
+
+"@f/omit@^2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@f/omit/-/omit-2.2.3.tgz#a3dc9bc4bb646dc75cb9c1586e229b14e13c0c80"
+  dependencies:
+    "@f/foreach-obj" "^1.0.1"
+    "@f/identity" "^1.1.1"
+    "@f/index" "^1.0.4"
+    "@f/is-array" "^1.1.1"
+    "@f/is-function" "^1.1.1"
+    "@f/is-object" "^1.1.4"
+
+"@f/pick@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@f/pick/-/pick-1.1.4.tgz#2a7cbe55616f8dfb2f864aad7583aaa662f0cd2a"
+
 "@f/popcount@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@f/popcount/-/popcount-1.0.0.tgz#f2d5372c2880d665df511fb154240c0add8bb084"
+
+"@f/position-element@^1.1.1":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@f/position-element/-/position-element-1.1.3.tgz#c1ab87a08f28e25fd2d789f2f835b6a160b09336"
+  dependencies:
+    "@f/apply-styles" "^1.0.1"
+    "@f/compute-placement" "^1.1.0"
+    "@f/element-rect" "^1.0.0"
+    "@f/offset-parent" "^1.0.0"
+
+"@f/prefix-style@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@f/prefix-style/-/prefix-style-1.0.2.tgz#2c14fcf6d042541c599dca0b623622cdf23ee44d"
+  dependencies:
+    "@f/css-prefix-data" "^1.0.0"
+    "@f/css-vendor-prefixes" "^1.0.2"
 
 "@f/queue@^1.0.2":
   version "1.0.2"
@@ -319,6 +411,19 @@
 "@f/reduce-array@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@f/reduce-array/-/reduce-array-0.2.1.tgz#de8e7b7f837ef1319ea8a35b4ba70169ea7e999f"
+
+"@f/reduce-obj@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/reduce-obj/-/reduce-obj-1.0.0.tgz#b4873a5f1627d30f2ee8ecbf994e92fb698c94f9"
+
+"@f/reduce@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/reduce/-/reduce-1.0.0.tgz#951f6aefe6303c2ea3eeaebb19557bf98b566faf"
+  dependencies:
+    "@f/is-array" "^1.1.1"
+    "@f/is-object" "^1.1.1"
+    "@f/reduce-array" "^0.2.1"
+    "@f/reduce-obj" "^1.0.0"
 
 "@f/remove-element@^1.0.0":
   version "1.0.0"
@@ -379,6 +484,10 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@f/svg-namespace/-/svg-namespace-1.0.1.tgz#f6f1a5ce5d3971a4ade91a11d22d4c459acd375f"
 
+"@f/times@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/times/-/times-1.0.0.tgz#af5c97fc0350988870dd5f4d8c960f6c18d17074"
+
 "@f/to-array@^1.0.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@f/to-array/-/to-array-1.1.1.tgz#8898bcf47e90994e431e6ae27879b1a1302294aa"
@@ -399,6 +508,12 @@
   dependencies:
     "@f/css-default-units" "^1.0.1"
     "@f/hyphenate" "^1.0.0"
+
+"@f/trigger-event@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@f/trigger-event/-/trigger-event-1.0.2.tgz#599687c1359f5350e66c554e2a23f26b84ae6af9"
+  dependencies:
+    "@f/create-event" "^1.0.2"
 
 ansi-regex@^2.0.0:
   version "2.0.0"
@@ -1009,6 +1124,10 @@ boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
 
+bowser@^1.4.5:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.4.6.tgz#2be801851089a165d504f417ea6ddcacf774af43"
+
 brace-expansion@^1.0.0:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.6.tgz#7197d7eaa9b87e648390ea61fc66c84427420df9"
@@ -1054,6 +1173,32 @@ cheerio@^0.22.0:
 classnames@^2.2.3:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
+
+clone@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
+
+color-convert@^1.3.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.5.0.tgz#7a2b4efb4488df85bca6443cb038b7100fbe7de1"
+
+color-name@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.1.tgz#4b1415304cf50028ea81643643bd82ea05803689"
+
+color-string@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-0.3.0.tgz#27d46fb67025c5c2fa25993bfbf579e47841b991"
+  dependencies:
+    color-name "^1.0.0"
+
+color@^0.11.1:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/color/-/color-0.11.3.tgz#4bad1d0d52499dd00dbd6f0868442467e49394e6"
+  dependencies:
+    clone "^1.0.2"
+    color-convert "^1.3.0"
+    color-string "^0.3.0"
 
 compose-function@^2.0.0:
   version "2.0.0"
@@ -1326,9 +1471,9 @@ marked@^0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
 
-markedx@0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/markedx/-/markedx-0.1.4.tgz#58f4b4076f96564a59e6634421bb3d932a826591"
+markedx:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/markedx/-/markedx-0.1.6.tgz#a32ea9a406cceb3bd286e5b4f51c51fa5c9e311f"
   dependencies:
     "@f/map" "^1.5.3"
     "@f/self-closing-tags" "^1.0.1"
@@ -1343,6 +1488,7 @@ markedx@0.1.4:
     hyperx "^2.0.5"
     marked "^0.3.6"
     vdux "^2.4.10"
+    vdux-ui "^1.2.36"
 
 mini-hamt@^1.0.1:
   version "1.0.3"
@@ -1518,7 +1664,56 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-vdux@^2.4.10:
+vdux-css-emulator@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/vdux-css-emulator/-/vdux-css-emulator-2.0.5.tgz#ff31b0e4b1e54085f79bde8631c1875fcaa22788"
+  dependencies:
+    "@f/contains-element" "^1.0.0"
+    "@f/create-action" "^1.1.1"
+    "@f/extend" "^1.0.0"
+    "@f/handle-actions" "^1.1.1"
+    "@f/omit" "^2.2.3"
+    "@f/trigger-event" "^1.0.2"
+    vdux-delay "^1.0.6"
+
+vdux-delay@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vdux-delay/-/vdux-delay-1.0.6.tgz#494b580d334509784ea3e98bb3fc9bcdf07c9b0e"
+  dependencies:
+    "@f/create-action" "^1.1.1"
+    "@f/handle-actions" "^1.1.1"
+
+vdux-position@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vdux-position/-/vdux-position-1.0.5.tgz#f5a1fb04b26744c4cf93e2faf9c85e79ece4ffae"
+  dependencies:
+    "@f/position-element" "^1.1.1"
+
+vdux-ui@^1.2.36:
+  version "1.2.36"
+  resolved "https://registry.yarnpkg.com/vdux-ui/-/vdux-ui-1.2.36.tgz#1909b08d1ade10eef408947b136bd452c218d9cb"
+  dependencies:
+    "@f/defaults" "^1.0.1"
+    "@f/extend" "^1.0.0"
+    "@f/foreach" "^1.2.2"
+    "@f/has" "^1.0.0"
+    "@f/html-attrs" "^1.0.2"
+    "@f/input-attrs" "^1.0.0"
+    "@f/map" "^1.5.3"
+    "@f/noop" "^1.2.0"
+    "@f/normalize-bowser" "^1.0.0"
+    "@f/omit" "^2.2.3"
+    "@f/pick" "^1.1.4"
+    "@f/prefix-style" "^1.0.2"
+    "@f/reduce" "^1.0.0"
+    "@f/times" "^1.0.0"
+    bowser "^1.4.5"
+    color "^0.11.1"
+    vdux "^2.4.9"
+    vdux-css-emulator "^2.0.5"
+    vdux-position "^1.0.5"
+
+vdux@^2.4.10, vdux@^2.4.9:
   version "2.4.10"
   resolved "https://registry.yarnpkg.com/vdux/-/vdux-2.4.10.tgz#1a20565bca5f7c1347f119230c3e9751d3087598"
   dependencies:
