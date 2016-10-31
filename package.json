@@ -13,6 +13,6 @@
   "author": "Daniel <danleavitt0@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "markedx": "0.1.10"
+    "markedx": "^0.1.11"
   }
 }

@@ -1471,9 +1471,9 @@ marked@^0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
 
-markedx@0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/markedx/-/markedx-0.1.10.tgz#70d07175a26ccfb570afa1a9f571fa5556fdaab8"
+markedx:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/markedx/-/markedx-0.1.11.tgz#fbd300e259882983529dfc6b0548ba35df20eb5c"
   dependencies:
     "@f/map" "^1.5.3"
     "@f/self-closing-tags" "^1.0.1"
