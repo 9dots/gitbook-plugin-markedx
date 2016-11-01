@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-markedx",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Run every page through markedx",
   "main": "lib/index.js",
   "engines": {
